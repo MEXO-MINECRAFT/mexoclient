@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mexoclient",
+  "version": "1.0.0",
+  "name": "Mexo Client",
+  "description": "Custom pink Title + GUI — Mexo Client",
+  "authors": ["MEXO-MINECRAFT"],
+  "entrypoints": {
+    "client": [
+      "com.mexo.mexoclient.MexoClient"
+    ]
+  },
+  "mixins": [
+    "mexoclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric": "*"
+  }
+}
